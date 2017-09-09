@@ -1,0 +1,49 @@
+/**
+ * Theme Name: Barebones Wordpress Theme
+ * Theme URI: http://www.marcrivers.us
+ * Description: Basic Barebones Wordpress Theme
+ * Version: 1.0 alpha
+ * Author: Marc Rivers
+ * Author URI: http://www.marcrivers.us
+ * Tags: wordpress, theme, html5, css3, jquery, responsive, seo
+ */
+ 
+ @font-face {
+ 	font-family: Raleway;
+ 	src: url(assets/font/Raleway-Regular.ttf);
+ }
+ 
+ body {
+ 	font-family: Raleway;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+ 	letter-spacing: -0.2px;
+ 	font-family: Helvetica,Arial,san-serif;
+ }
+
+ p {
+ 	line-height: 1.2em;
+ }
+ 
+ a {
+ 	text-decoration: none;
+ 	color: #292929;
+ }
+ 
+ a:hover {
+ 	text-decoration: underline;
+ }
+ 
+ ul {
+ 	list-style: none;
+ }
+ 
+ li {
+ 	line-height: 1.3em;
+ }
+ 
+ img {
+ 	width: 100%;
+ 	height: auto;
+ }
